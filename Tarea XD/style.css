@@ -1,0 +1,176 @@
+/*recuerda:
+Top:arriba Bottom:abaja
+left:izquierda right:derecha
+margin: espacio entre cajas 	padding: espacio entre text y la caja
+*/
+@charset "utf-8";
+/*General */
+html, body{
+	overflow: auto;
+	scrollbar-width: none; 
+	margin: 0;
+	padding: 0;
+	background-image: url('img/Huaca/f2a2a1_c1fe98b0e8ab44eba4814b7df6fbf7b2~mv2_d_5472_3648_s_4_2.jpg');
+	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+  	background-attachment: fixed; 
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+            display: none;
+}	
+/*Encabesado*/
+header{
+	background-color: #45b97c;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	/*font-family: "Courier New",Courier,monospace;*/
+}
+nav ul{
+	list-style: none;
+	display: flex; 
+	justify-content: center; 
+	gap: 20px;
+	padding: 0;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*Cuerpo*/
+#ti_1{
+	text-align: center;
+	font-size: 2em;
+}
+b{
+	font-size: 1.5em;
+	text-align: center;
+}
+#op{
+	margin: 0 20% 0 20%;
+	background-color: #383838;
+	color: white;
+	padding: 1.5em;
+	border-radius: 10px;
+}
+h2{
+	margin: 0 0 10px 0;
+}
+.div{
+	background-color: rgba(95, 232, 118, 0.5);
+	padding: 0 0 10px 0;
+}
+#div1 h2,#div1 p ,#div1 li{
+	text-align: center;
+}
+form{
+	text-align: center;
+}
+#table_1{
+	margin: 0 25% 0 25%;
+}
+#img_1, #img_2 {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+#section_4 div::-webkit-scrollbar {
+    display: none;
+}
+#section_4 div{
+	overflow: auto;
+	scrollbar-width: none;
+}
+#section_4 table{
+	margin: 20px auto ;
+	border-collapse: collapse;
+	text-align: center;	
+}
+#section_4 td{
+	padding: 10px;
+	background-color: #f8f8f8;
+	border-radius: 8px;
+}
+#section_4 img{
+	border-radius: 10px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+ }
+
+#section_1,#section_2,#section_3{
+	text-align: center;
+	padding: 20px
+}
+.boton{
+	display: inline-block;
+	background-color: #45b97c;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+/*pie de pagina*/
+ }
+        .comment-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .comment-form input, .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .comment-form button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .comment-form button:hover {
+            background-color: #0056b3;
+        }
+        .comment-list {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .comment {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+        .comment:last-child {
+            border-bottom: none;
+        }
+        .comment-author {
+            font-weight: bold;
+            color: #333;
+        }
+        .comment-text {
+            color: #666;
+            margin: 5px 0;
+        }
+        .comment-date {
+            font-size: 0.8em;
+            color: #999;
+        }
+#comentario{
+	margin: 0 25% 2em 25%;
+}
+footer{
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
